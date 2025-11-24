@@ -7,41 +7,41 @@ const ApartmentMixDashboard = () => {
   const apartmentData = {
     comfort_plus: {
       mix: [
-        { type: 'Студия', percent: 8, area: '38-42', count: 16, color: '#8884d8' },
-        { type: '1-комн', percent: 28, area: '44-50', count: 56, color: '#82ca9d' },
-        { type: '2-комн', percent: 38, area: '58-68', count: 76, color: '#ffc658' },
-        { type: '3-комн', percent: 22, area: '78-88', count: 44, color: '#ff8042' },
-        { type: '4-комн', percent: 4, area: '110-125', count: 8, color: '#a4de6c' }
+        { type: 'Студия', percent: 8, area: '38-42', count: 51, color: '#8884d8' },
+        { type: '1-комн', percent: 28, area: '44-50', count: 179, color: '#82ca9d' },
+        { type: '2-комн', percent: 38, area: '58-68', count: 243, color: '#ffc658' },
+        { type: '3-комн', percent: 22, area: '78-88', count: 141, color: '#ff8042' },
+        { type: '4-комн', percent: 4, area: '110-125', count: 26, color: '#a4de6c' }
       ],
-      totalUnits: 200,
-      avgArea: 66.5,
-      totalArea: 13300,
+      totalUnits: 640,
+      avgArea: 50.78,
+      totalArea: 32500,
       description: 'Сбалансированный микс для семейных покупателей среднего класса'
     },
     comfort: {
       mix: [
-        { type: 'Студия', percent: 12, area: '36-40', count: 24, color: '#8884d8' },
-        { type: '1-комн', percent: 35, area: '42-48', count: 70, color: '#82ca9d' },
-        { type: '2-комн', percent: 40, area: '55-65', count: 80, color: '#ffc658' },
-        { type: '3-комн', percent: 13, area: '75-85', count: 26, color: '#ff8042' },
+        { type: 'Студия', percent: 12, area: '36-40', count: 77, color: '#8884d8' },
+        { type: '1-комн', percent: 35, area: '42-48', count: 224, color: '#82ca9d' },
+        { type: '2-комн', percent: 40, area: '55-65', count: 256, color: '#ffc658' },
+        { type: '3-комн', percent: 13, area: '75-85', count: 83, color: '#ff8042' },
         { type: '4-комн', percent: 0, area: '-', count: 0, color: '#a4de6c' }
       ],
-      totalUnits: 200,
-      avgArea: 58.2,
-      totalArea: 11640,
+      totalUnits: 640,
+      avgArea: 50.78,
+      totalArea: 32500,
       description: 'Массовый сегмент с акцентом на доступность'
     },
     business: {
       mix: [
-        { type: 'Студия', percent: 3, area: '40-45', count: 6, color: '#8884d8' },
-        { type: '1-комн', percent: 18, area: '48-55', count: 36, color: '#82ca9d' },
-        { type: '2-комн', percent: 35, area: '62-75', count: 70, color: '#ffc658' },
-        { type: '3-комн', percent: 32, area: '82-95', count: 64, color: '#ff8042' },
-        { type: '4-комн', percent: 12, area: '115-140', count: 24, color: '#a4de6c' }
+        { type: 'Студия', percent: 3, area: '40-45', count: 19, color: '#8884d8' },
+        { type: '1-комн', percent: 18, area: '48-55', count: 115, color: '#82ca9d' },
+        { type: '2-комн', percent: 35, area: '62-75', count: 224, color: '#ffc658' },
+        { type: '3-комн', percent: 32, area: '82-95', count: 205, color: '#ff8042' },
+        { type: '4-комн', percent: 12, area: '115-140', count: 77, color: '#a4de6c' }
       ],
-      totalUnits: 200,
-      avgArea: 78.4,
-      totalArea: 15680,
+      totalUnits: 640,
+      avgArea: 50.78,
+      totalArea: 32500,
       description: 'Премиальный сегмент для состоятельных покупателей'
     }
   };
@@ -263,6 +263,22 @@ const ApartmentMixDashboard = () => {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Детальная планировка */}
+        <div className="mt-8 bg-white border-2 border-indigo-200 rounded-lg p-6">
+          <h3 className="text-2xl font-bold text-gray-800 mb-4 text-center">
+            📐 Детальная планировка квартир
+          </h3>
+          <button 
+            onClick={() => window.open('#', '_self')}
+            className="w-full mb-4 bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-3 px-6 rounded-lg font-semibold hover:from-indigo-700 hover:to-purple-700 transition-all shadow-lg"
+          >
+            📋 Посмотреть полную детализацию каждой квартиры
+          </button>
+          <p className="text-gray-600 text-center italic">
+            Нажмите кнопку выше, чтобы увидеть подробное описание каждого помещения для всех типов квартир
+          </p>
         </div>
 
         {/* Рекомендации */}
