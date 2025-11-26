@@ -202,11 +202,7 @@ const OptimizedApartmentMixDashboard = () => {
             <div className="text-sm opacity-90">Всего квартир</div>
             <div className="text-3xl font-bold">{currentData.totalUnits}</div>
           </div>
-        //<div className="bg-gradient-to-br from-green-500 to-green-600 rounded-lg p-4 text-white">
-        //   <div className="text-sm opacity-90">Средняя площадь</div>
-        //   <div className="text-3xl font-bold">{currentData.avgArea} м²</div>
-        //  </div>
-          <div className="bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg p-4 text-white">
+        <div className="bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg p-4 text-white">
             <div className="text-sm opacity-90">Общая площадь</div>
             <div className="text-3xl font-bold">{currentData.totalArea.toLocaleString()} м²</div>
           </div>
