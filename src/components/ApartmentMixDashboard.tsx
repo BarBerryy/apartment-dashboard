@@ -122,7 +122,7 @@ const OptimizedApartmentMixDashboard = () => {
   const comparisonData = [
     { name: 'Комфорт', revenue: 52, margin: 35, avgPrice: 81, liquidity: 85 },
     { name: 'Комфорт+', revenue: 58.5, margin: 38, avgPrice: 91, liquidity: 80 },
-    { name: 'НОВЫЙ', revenue: 78, margin: 42, avgPrice: 122, liquidity: 88 },
+    { name: 'Проект', revenue: 78, margin: 42, avgPrice: 122, liquidity: 88 },
     { name: 'Бизнес', revenue: 71.5, margin: 40, avgPrice: 112, liquidity: 70 }
   ];
 
@@ -158,7 +158,7 @@ const OptimizedApartmentMixDashboard = () => {
                 : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
             }`}
           >
-            ⭐ Планируемый проект
+            💚 Планируемый проект
           </button>
           <button
             onClick={() => setBuildingClass('comfort')}
