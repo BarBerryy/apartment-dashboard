@@ -19,7 +19,7 @@ const OptimizedApartmentMixDashboard = () => {
       ],
       totalUnits: 640,
       avgArea: 62.5,
-      totalArea: 40000,
+      totalArea: 32500,
       description: 'Оптимизированный микс для максимальной ликвидности и рентабельности'
     },
     comfort_plus: {
@@ -121,8 +121,8 @@ const OptimizedApartmentMixDashboard = () => {
   // Сравнительный анализ всех проектов
   const comparisonData = [
     { name: 'Комфорт', revenue: 52, margin: 35, avgPrice: 81, liquidity: 85 },
-    { name: 'Комфорт+', revenue: 58.5, margin: 38, avgPrice: 91, liquidity: 80 },
     { name: 'Бойкент 💚', revenue: 78, margin: 42, avgPrice: 122, liquidity: 88 },
+    { name: 'Комфорт+', revenue: 58.5, margin: 38, avgPrice: 91, liquidity: 80 },
     { name: 'Бизнес', revenue: 71.5, margin: 40, avgPrice: 112, liquidity: 70 }
   ];
 
@@ -202,10 +202,10 @@ const OptimizedApartmentMixDashboard = () => {
             <div className="text-sm opacity-90">Всего квартир</div>
             <div className="text-3xl font-bold">{currentData.totalUnits}</div>
           </div>
-          <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-lg p-4 text-white">
-            <div className="text-sm opacity-90">Средняя площадь</div>
-            <div className="text-3xl font-bold">{currentData.avgArea} м²</div>
-          </div>
+          //// <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-lg p-4 text-white">
+          ////  <div className="text-sm opacity-90">Средняя площадь</div>
+          ////  <div className="text-3xl font-bold">{currentData.avgArea} м²</div>
+          //// </div>
           <div className="bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg p-4 text-white">
             <div className="text-sm opacity-90">Общая площадь</div>
             <div className="text-3xl font-bold">{currentData.totalArea.toLocaleString()} м²</div>
