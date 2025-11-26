@@ -568,7 +568,7 @@ const OptimizedApartmentMixDashboard = () => {
                   <strong>Месяцы 3-12:</strong> 1-комнатные для инвесторов
                 </div>
                 <div className="p-3 bg-purple-50 rounded">
-                  <strong>Последними:</strong> Студии или под краткосрочную аренду
+                  <strong>Последними:</strong> Студии под краткосрочную аренду
                 </div>
               </div>
             </div>
@@ -616,8 +616,8 @@ const OptimizedApartmentMixDashboard = () => {
                 <tr className="bg-gray-200">
                   <th className="border border-gray-300 px-4 py-3 text-left">Показатель</th>
                   <th className="border border-gray-300 px-4 py-3 text-center">Комфорт</th>
-                  <th className="border border-gray-300 px-4 py-3 text-center bg-green-100">Бойкент 💚</th>
-                  <th className="border border-gray-300 px-4 py-3 text-center bg-teal-100">Бойкент (ОСИиИ)</th>
+                  <th className="border border-gray-300 px-4 py-3 text-center bg-green-100">Бойкент (ОСИиИ)</th>
+                  <th className="border border-gray-300 px-4 py-3 text-center bg-teal-100">Бойкент 💚</th>
                   <th className="border border-gray-300 px-4 py-3 text-center bg-purple-100">Бойкент (Тренды)</th>
                   <th className="border border-gray-300 px-4 py-3 text-center">Комфорт+</th>
                   <th className="border border-gray-300 px-4 py-3 text-center">Бизнес</th>
