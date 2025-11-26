@@ -122,7 +122,7 @@ const OptimizedApartmentMixDashboard = () => {
   const comparisonData = [
     { name: 'Комфорт', revenue: 52, margin: 35, avgPrice: 81, liquidity: 85 },
     { name: 'Комфорт+', revenue: 58.5, margin: 38, avgPrice: 91, liquidity: 80 },
-    { name: 'Проект', revenue: 78, margin: 42, avgPrice: 122, liquidity: 88 },
+    { name: 'Бойкент 💚', revenue: 78, margin: 42, avgPrice: 122, liquidity: 88 },
     { name: 'Бизнес', revenue: 71.5, margin: 40, avgPrice: 112, liquidity: 70 }
   ];
 
@@ -141,7 +141,7 @@ const OptimizedApartmentMixDashboard = () => {
       <div className="bg-white rounded-xl shadow-2xl p-8">
         <div className="text-center mb-6">
           <h1 className="text-4xl font-bold text-gray-800 mb-2">
-            Потенциальная квартирография нового проекта
+            Планируемая квартирография ЖК "Бойкент" 💚
           </h1>
           <p className="text-lg text-gray-600">
             На основе анализа 3 существующих сегментов рынка
@@ -158,7 +158,7 @@ const OptimizedApartmentMixDashboard = () => {
                 : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
             }`}
           >
-            💚 Планируемый проект
+            Бойкент 💚
           </button>
           <button
             onClick={() => setBuildingClass('comfort')}
@@ -257,6 +257,8 @@ const OptimizedApartmentMixDashboard = () => {
                   cx="50%"
                   cy="50%"
                   outerRadius={100}
+                  startAngle={90}
+                  endAngle={-270}
                   label={({ type, percent }) => `${type}: ${percent}%`}
                 >
                   {currentData.mix.filter(item => item.count > 0).map((entry, index) => (
@@ -455,7 +457,7 @@ const OptimizedApartmentMixDashboard = () => {
             <li><strong>Инвесторам:</strong> предложить 1-комнатные (22%) с гарантией аренды</li>
             <li><strong>Семейный сегмент:</strong> 3-комнатные (14%) с улучшенными планировками</li>
             <li><strong>Студии (5%):</strong> продавать последними или под краткосрочную аренду</li>
-            <li><strong>Паркинг:</strong> 512 мест = 0.8 на квартиру (оптимальное соотношение)</li>
+            <li><strong>Парковинг:</strong> 512 мест = 0.8 на квартиру (оптимальное соотношение)</li>
             <li><strong>Ценообразование:</strong> дифференцировать по этажам (±5-10%)</li>
             <li><strong>Увеличенные площади:</strong> +23% к Комфорт+ привлекут премиум-сегмент</li>
           </ul>
@@ -473,7 +475,7 @@ const OptimizedApartmentMixDashboard = () => {
                   <th className="border border-gray-300 px-4 py-3 text-left">Показатель</th>
                   <th className="border border-gray-300 px-4 py-3 text-center">Комфорт</th>
                   <th className="border border-gray-300 px-4 py-3 text-center">Комфорт+</th>
-                  <th className="border border-gray-300 px-4 py-3 text-center bg-green-100">Проект</th>
+                  <th className="border border-gray-300 px-4 py-3 text-center bg-green-100">Бойкент 💚</th>
                   <th className="border border-gray-300 px-4 py-3 text-center">Бизнес</th>
                 </tr>
               </thead>
