@@ -141,7 +141,7 @@ const OptimizedApartmentMixDashboard = () => {
       <div className="bg-white rounded-xl shadow-2xl p-8">
         <div className="text-center mb-6">
           <h1 className="text-4xl font-bold text-gray-800 mb-2">
-            🏗️ Оптимизированная квартирография нового проекта
+            Потенциальная квартирография нового проекта
           </h1>
           <p className="text-lg text-gray-600">
             На основе анализа 3 существующих сегментов рынка
