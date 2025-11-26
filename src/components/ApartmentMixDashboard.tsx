@@ -79,7 +79,7 @@ const OptimizedApartmentMixDashboard = () => {
 
   const financialMetrics = {
     new_optimal: {
-      pricePerSqm: 1950,
+      pricePerSqm: 1750,
       avgUnitPrice: 121875,
       totalRevenue: 78000000,
       parkingSpaces: 512,
@@ -470,8 +470,8 @@ const OptimizedApartmentMixDashboard = () => {
                 <tr className="bg-gray-200">
                   <th className="border border-gray-300 px-4 py-3 text-left">Показатель</th>
                   <th className="border border-gray-300 px-4 py-3 text-center">Комфорт</th>
-                  <th className="border border-gray-300 px-4 py-3 text-center">Комфорт+</th>
                   <th className="border border-gray-300 px-4 py-3 text-center bg-green-100">Бойкент 💚</th>
+                  <th className="border border-gray-300 px-4 py-3 text-center">Комфорт+</th>
                   <th className="border border-gray-300 px-4 py-3 text-center">Бизнес</th>
                 </tr>
               </thead>
@@ -479,36 +479,36 @@ const OptimizedApartmentMixDashboard = () => {
                 <tr>
                   <td className="border border-gray-300 px-4 py-3 font-semibold">Цена за м²</td>
                   <td className="border border-gray-300 px-4 py-3 text-center">$1,600</td>
+                  <td className="border border-gray-300 px-4 py-3 text-center bg-green-50 font-bold">$1,750</td>
                   <td className="border border-gray-300 px-4 py-3 text-center">$1,800</td>
-                  <td className="border border-gray-300 px-4 py-3 text-center bg-green-50 font-bold">$1,950</td>
                   <td className="border border-gray-300 px-4 py-3 text-center">$2,200</td>
                 </tr>
                 <tr>
                   <td className="border border-gray-300 px-4 py-3 font-semibold">Средняя площадь</td>
                   <td className="border border-gray-300 px-4 py-3 text-center">50.78 м²</td>
-                  <td className="border border-gray-300 px-4 py-3 text-center">50.78 м²</td>
                   <td className="border border-gray-300 px-4 py-3 text-center bg-green-50 font-bold">62.5 м²</td>
+                  <td className="border border-gray-300 px-4 py-3 text-center">50.78 м²</td>
                   <td className="border border-gray-300 px-4 py-3 text-center">50.78 м²</td>
                 </tr>
                 <tr>
                   <td className="border border-gray-300 px-4 py-3 font-semibold">Общая выручка</td>
                   <td className="border border-gray-300 px-4 py-3 text-center">$52.0M</td>
-                  <td className="border border-gray-300 px-4 py-3 text-center">$58.5M</td>
                   <td className="border border-gray-300 px-4 py-3 text-center bg-green-50 font-bold">$87.2M</td>
+                  <td className="border border-gray-300 px-4 py-3 text-center">$58.5M</td>
                   <td className="border border-gray-300 px-4 py-3 text-center">$71.5M</td>
                 </tr>
                 <tr>
                   <td className="border border-gray-300 px-4 py-3 font-semibold">Маржинальность</td>
                   <td className="border border-gray-300 px-4 py-3 text-center">35%</td>
-                  <td className="border border-gray-300 px-4 py-3 text-center">38%</td>
                   <td className="border border-gray-300 px-4 py-3 text-center bg-green-50 font-bold">42%</td>
+                  <td className="border border-gray-300 px-4 py-3 text-center">38%</td>
                   <td className="border border-gray-300 px-4 py-3 text-center">40%</td>
                 </tr>
                 <tr>
                   <td className="border border-gray-300 px-4 py-3 font-semibold">Доля 2-комнатных</td>
                   <td className="border border-gray-300 px-4 py-3 text-center">32%</td>
-                  <td className="border border-gray-300 px-4 py-3 text-center">28%</td>
                   <td className="border border-gray-300 px-4 py-3 text-center bg-green-50 font-bold">30%</td>
+                  <td className="border border-gray-300 px-4 py-3 text-center">28%</td>
                   <td className="border border-gray-300 px-4 py-3 text-center">25%</td>
                 </tr>
               </tbody>
