@@ -212,7 +212,7 @@ const OptimizedApartmentMixDashboard = () => {
                 : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
             }`}
           >
-            Бойкент 💚
+            Бойкент (ОСИиИ)
           </button>
           <button
             onClick={() => setBuildingClass('osii_optimal')}
@@ -222,7 +222,7 @@ const OptimizedApartmentMixDashboard = () => {
                 : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
             }`}
           >
-            Бойкент (ОСИиИ)
+            Бойкент 💚
           </button>
           <button
             onClick={() => setBuildingClass('market_trends')}
