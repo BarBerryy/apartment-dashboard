@@ -52,7 +52,7 @@ const OptimizedApartmentMixDashboard = () => {
         { type: '4-комн', percent: 0, area: '-', count: 0, color: '#a4de6c' },
         { type: '5-комн', percent: 0, area: '-', count: 0, color: '#c9a0dc' }
       ],
-      totalUnits: 640,
+      totalUnits: 660,
       avgArea: 56,
       totalArea: 32500,
       description: 'Оптимизированная структура на основе трендов рынка и демографических изменений'
