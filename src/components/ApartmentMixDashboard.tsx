@@ -42,13 +42,13 @@ const OptimizedApartmentMixDashboard = () => {
     },
     market_trends: {
       mix: [
-        { type: 'Студия', percent: 8, area: '35-40', count: 51, color: '#8884d8' },
-        { type: '1-комн', percent: 26, area: '42-48', count: 166, color: '#82ca9d' },
-        { type: '1+ комн', percent: 12, area: '48-54', count: 77, color: '#7dd3c0' },
-        { type: '2-комн', percent: 32, area: '58-68', count: 205, color: '#ffc658' },
-        { type: '2+ комн', percent: 11, area: '70-85', count: 70, color: '#ffb347' },
-        { type: '3-комн', percent: 9, area: '75-88', count: 58, color: '#ff8042' },
-        { type: '3+ комн', percent: 2, area: '90-105', count: 13, color: '#ff6b6b' },
+        { type: 'Студия', percent: 8, area: '35-40', count: 53, color: '#8884d8' }, // 53 шт
+        { type: '1-комн', percent: 26, area: '42-48', count: 172, color: '#82ca9d' }, // 172 шт
+        { type: '1+ комн', percent: 12, area: '48-54', count: 79, color: '#7dd3c0' }, // 79 шт
+        { type: '2-комн', percent: 32, area: '58-68', count: 211, color: '#ffc658' }, // 211 шт
+        { type: '2+ комн', percent: 11, area: '70-85', count: 73, color: '#ffb347' }, // 73 шт
+        { type: '3-комн', percent: 9, area: '75-88', count: 59, color: '#ff8042' }, // 59 шт
+        { type: '3+ комн', percent: 2, area: '90-105', count: 13, color: '#ff6b6b' }, // 13 шт
         { type: '4-комн', percent: 0, area: '-', count: 0, color: '#a4de6c' },
         { type: '5-комн', percent: 0, area: '-', count: 0, color: '#c9a0dc' }
       ],
@@ -455,8 +455,8 @@ const OptimizedApartmentMixDashboard = () => {
     market_trends: {
       pricePerSqm: 1680,
       avgUnitPrice: 94080,
-      totalRevenue: 60211200,
-      parkingSpaces: 512,
+      totalRevenue: 62092800, // Обновленная выручка
+      parkingSpaces: 528, // Опционально: +16 мест (пропорционально квартирам, если нужно)
       parkingPrice: 18000,
       constructionCostPerSqm: 820,
       marginPercent: 39
@@ -493,11 +493,11 @@ const OptimizedApartmentMixDashboard = () => {
   const currentMetrics = financialMetrics[buildingClass];
 
   // Сравнительный анализ всех проектов
-  const comparisonData = [
+const comparisonData = [
     { name: 'Комфорт', revenue: 52, margin: 35, avgPrice: 81, liquidity: 85 },
     { name: 'Бойкент 💚', revenue: 78, margin: 42, avgPrice: 122, liquidity: 88 },
     { name: 'Бойкент (ОСИиИ)', revenue: 82, margin: 44, avgPrice: 128, liquidity: 88 },
-    { name: 'Бойкент (Тренды)', revenue: 60.2, margin: 39, avgPrice: 94, liquidity: 92 },
+    { name: 'Бойкент (Тренды)', revenue: 62.1, margin: 39, avgPrice: 94, liquidity: 92 }, // Обновлено
     { name: 'Комфорт+', revenue: 58.5, margin: 38, avgPrice: 91, liquidity: 80 },
     { name: 'Бизнес', revenue: 71.5, margin: 40, avgPrice: 112, liquidity: 70 }
   ];
